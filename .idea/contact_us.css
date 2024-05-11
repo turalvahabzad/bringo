@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #30302f;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the contact form */
+#contact {
+    background-image: url("file:///D:/Workspace/bringocharge/bringoback18.jpg"); /* Replace "path/to/your/background-image.jpg" with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff; /* Set text color for better visibility */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Other form styles */
+
+/*-------------Footer*/
+.footer {
+    display: none;
+    background-color: black;
+    color: #fefefe;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 999; /* Ensure the footer appears above other content */
+    padding: 20px; /* Add padding to the footer */
+    font-size: 14px; /* Decrease the font size */
+}
+
+.footer.show {
+    display: flex;
+}
+
+.footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 1rem; /* Decrease the margin */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px; /* Decrease the font size */
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem; /* Decrease the margin */
+}
+
+.footer .content p {
+    margin-bottom: 0.5rem; /* Decrease the margin */
+}
+
+.footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.footer .content a:hover {
+    border-bottom: 1px solid #971717;
+}
+
+.footer .content h4 {
+    margin-bottom: 0.5rem; /* Decrease the margin */
+    font-size: 16px; /* Decrease the font size */
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1rem; /* Decrease the margin */
+}
+
+footer hr {
+    margin: 1rem 0; /* Decrease the margin */
+}
