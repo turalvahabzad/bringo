@@ -3,191 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <title>Bringocharge</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-</head>
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"> <!-- Changed the link to load all icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="file:///D:/Workspace/bringocharge/bringo19.png" style="width: 100px; height: auto;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about_us.html">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact_us.html">CONTACT US</a>
-                    </li>
-                </ul>
+<section id="banner">
+    <img src="" class="logo">
+    <div class="banner-text">
+        <h1>Charge Stations</h1>
+        <p>call us whenever you need</p>
+        <div class="banner-btn">
+            <a href="#service"><span></span>Reservation</a>
+            <a href="#feature"><span></span>Read More</a>
+        </div>
+    </div>
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#products">PRODUCTS</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#about_us">ABOUT US</a></li>
+            <li><a href="#footer">CONTACT US</a></li>
+            <li><a href="#news">NEWS</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+</div>
+
+<!--Features-->
+<section id="feature">
+    <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Quality Products</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-shield"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Charge stations for electric cars provide essential infrastructure
+                        for sustainable transportation, offering convenient access
+                        to recharging facilities for electric vehicle owners.
+                    </p>
+                </div>
+            </div>
+
+            <h1>Pre Booking Online</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Charge stations for electric cars provide essential infrastructure
+                        for sustainable transportation, offering convenient access
+                        to recharging facilities for electric vehicle owners.
+                    </p>
+                </div>
+            </div>
+
+            <h1>Affordable Cost</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-inr"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Charge stations for electric cars provide essential infrastructure
+                        for sustainable transportation, offering convenient access
+                        to recharging facilities for electric vehicle owners.
+                    </p>
+                </div>
             </div>
         </div>
-</nav>
+        <div class="features-img">
+            <img src="images/bringoback18.jpg">
+        </div>
+    </div>
+</section>
 
-<div class="main-content">
-    <section id="welcome">
-        <div class="container">
-            <div class="welcome text-center">
-                <h1>Welcome to our Bringocharge service</h1>
-                <p>
-                    tell me your opionion about the wbesite, so,I can update it according your requirments
+<!--Services-->
+
+<section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We provide better</h1>
+        </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="images/charge.jpg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Charging</h3>
+              <hr>
+                <p>Our dedication to reducing carbon emissions and conserving
+                    the environment drives our every action.
+                </p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/charging.webp">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Renting Options</h3>
+                <hr>
+                <p> We're constantly pushing the boundaries of technology to provide
+                    innovative solutions.
                 </p>
             </div>
         </div>
 
 
-    </section>
+    </div>
+</section>
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <img src="file:///D:/Workspace/bringocharge/back.jpg" class="fa-bars">
-                </div>
+<!-- About Us Section -->
+<section id="about_us">
+    <div class="about-us-content">
+        <div class="about-img">
+            <img src="images/about_us.jpg" alt="About Us Image">
+        </div>
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h2>We provide mobile charge stations for Electric Vehicles (EV)</h2>
+            <p>We aim to make electric vehicle charging accessible to all, whether in urban areas, remote locations, or during road trips. Our mobile charging stations are designed to meet the diverse needs of EV users.</p>
 
-                <div class="col-md-6 text-justify">
-                    <h3>Kowledge, Skill, Hard Work</h3>
-                    <p>
-                        tell me your opionion about the wbesite, so,I can update it according your requirments
-                    </p>
-                    <p>
-                        tell me your opionion about the wbesite, so,I can update it according your requirments
-                    </p>
-                </div>
-                <div class="col-md-6 text-justify">
-                    <h3> Our Values</h3>
-                    <p>
-                        Sustainability: Our dedication to reducing carbon emissions and conserving the environment drives our every action.
+            <h2>Our Mission</h2>
+            <p>At Bringo Charge, our mission is to revolutionize the electric vehicle charging experience by providing convenient, reliable, and sustainable mobile charging solutions. We are committed to accelerating the adoption of electric vehicles and reducing the world's carbon footprint by empowering EV owners with easy access to clean energy wherever they are.</p>
+        </div>
+    </div>
+</section>
 
-                        Customer Satisfaction: We believe in exceeding expectations and making every customer interaction memorable.
+<section id="our_solution">
+    <div class="our-solution-content">
+        <div class="our-img">
+            <img src="images/back.jpg" alt="Our Solution Image">
+        </div>
+        <div class="our-text">
+            <h1>Our Solution</h1>
+            <p>Bringo Charge proposes a solution to address these challenges by introducing CaaS and mobile charge stations for Electric Vehicles (EVs) in Slovakia.</p>
+            <p>Key features of our solution include:</p>
+            <ul>
+                <li><strong>Flexibility and Mobility:</strong> Bringo Charge's mobile charge stations can be deployed flexibly to meet the evolving needs of EV owners, including temporary charging events, remote locations, and areas with high demand for charging infrastructure.</li>
+                <li><strong>Convenience:</strong> By bringing the charging station directly to the user, Bringo Charge eliminates the need for EV owners to travel to fixed charging stations, saving time and reducing inconvenience.</li>
+                <li><strong>Accessibility:</strong> Our solution increases accessibility to EV charging infrastructure, particularly in rural and suburban areas where traditional charging stations may be scarce. This encourages broader adoption of electric mobility and supports sustainable transportation initiatives.</li>
+                <li><strong>Scalability:</strong> Bringo Charge's fleet of mobile charge stations can be scaled up or down based on demand, allowing us to respond dynamically to changes in EV adoption rates, geographic trends, and seasonal variations in travel patterns.</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-                        Innovation: We're constantly pushing the boundaries of technology to provide innovative solutions.
 
-                        Collaboration: A culture of collaboration and open communication ensures our team thrives.
-                    </p>
-                </div>
-                <div>
-                    <div class="col-md-6">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=3cBvdhtA1rOlhCq7"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin"
-                                    allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 text-justify">
-                </div>
+<!-- Our Team Section -->
+<section id="about_us">
+    <div class="title-text">
+        <h1>Our Team</h1>
+    </div>
+    <div class="team-row">
+        <!-- Team Member 1 -->
+        <div class="team-column">
+            <div class="team-card">
+                <img src="images/nail.jpeg" alt="Team Member 1">
+                <h3>Nail Sarıyev</h3>
+                <p>CEO</p>
             </div>
         </div>
-    </section>
-</div>
-
-<div class="footer">
-    <div class="heading">
-        <h2>BringoCharge</h2>
-    </div>
-    <div class="content">
-        <div class="services">
-            <h4>Services</h4>
-            <p><a href="#">Long-term rent</a></p>
-            <p><a href="#">Delivery Service</a></p>
-            <p><a href="#">Technical Support</a></p>
-            <p><a href="#">Bla bla bla</a></p>
+        <!-- Team Member 2 -->
+        <div class="team-column">
+            <div class="team-card">
+                <img src="images/ismail.jpg" alt="Team Member 2">
+                <h3>Ismayil Khalilov</h3>
+                <p>Chief Operating Officer</p>
+            </div>
         </div>
-        <div class="social-media">
-            <h4>Social</h4>
-            <p>
-                <a href="#"
-                ><i class="fab fa-linkedin"></i> Linkedin</a
-                >
-            </p>
-            <p>
-                <a href="#"
-                ><i class="fab fa-twitter"></i> Twitter</a
-                >
-            </p>
-
-            <p>
-                <a href="#"
-                ><i class="fab fa-facebook"></i> Facebook</a
-                >
-            </p>
-            <p>
-                <a href="#"
-                ><i class="fab fa-instagram"></i> Instagram</a
-                >
-            </p>
+        <!-- Team Member 3 -->
+        <div class="team-column">
+            <div class="team-card">
+                <img src="images/tural.jpg" alt="Team Member 3">
+                <h3>Tural Vahabzada</h3>
+                <p>Chief Technology Officer</p>
+            </div>
         </div>
-        <div class="links">
-            <h4>Quick links</h4>
-            <p><a href="index.html">Home</a></p>
-            <p><a href="about_us.html">About us</a></p>
-            <p><a href="services.html">Services</a></p>
-            <p><a href="blog.html">Blog</a></p>
-            <p><a href="contact_us.html">Contact us</a></p>
-        </div>
-        <div class="details">
-            <h4 class="address">Address</h4>
-            <p>
-                Blagagova 14 <br />
-                Bratislava
-            </p>
-            <h4 class="mobile">Mobile</h4>
-            <p><a href="#">+421-12225*****</a></p>
-            <h4 class="mail">Email</h4>
-            <p><a href="#">ismayil@gmail.com</a></p>
+        <!-- Team Member 4 -->
+        <div class="team-column">
+            <div class="team-card">
+                <img src="images/engin.jpg" alt="Team Member 4">
+                <h3>Engin Atici</h3>
+                <p>Marketing Head</p>
+            </div>
         </div>
     </div>
-    <footer>
-        <hr />
-        © 2024 BringoCharge
-    </footer>
+</section>
+<!--footer-->
+<section id="footer">
+    <img src="images/logo.png" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Contact us</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p><i class="fa fa-calendar"></i>Monday to Sunday
+            </p>
+            <p><i class="fa fa-calendar"></i>24/7 Support</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p>Račianska 1572/72831 02 Bratislava, Slovakia<i class="fa fa-map-marker"></i>
+            </p>
+            <p>+421 951 505 869<i class="fa fa-phone"></i>
+            </p>
+            <p>info@bringocharge.com<i class="fa fa-envelope"></i>
+            </p>
+        </div>
+    </div>
+<div class="social-links">
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <p>Copyright © 2024 BringoCharge. All Rights Reserved.</p>
 </div>
 
+</section>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var footer = document.querySelector('.footer');
-        footer.style.display = 'block'; // Show the footer initially
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+    var menu = document.getElementById("menu");
 
-        window.addEventListener('scroll', function() {
-            var scrollPosition = window.scrollY;
-            var windowHeight = window.innerHeight;
-            var bodyHeight = document.body.offsetHeight;
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+            sideNav.style.right = "0";
+            menu.src = "images/close.png";
+            sideNav.classList.add('visible');
+        } else {
+            sideNav.style.right = "-250px";
+            menu.src = "images/menu.png";
+            sideNav.classList.remove('visible');
+        }
+    }
 
-            // Calculate how far the user has scrolled from the top
-            var scrolledPercentage = (scrollPosition / (bodyHeight - windowHeight)) * 100;
+    document.addEventListener('click', function (event) {
+        if (!sideNav.contains(event.target) && !menuBtn.contains(event.target) && sideNav.classList.contains('visible')) {
+            sideNav.style.right = "-250px";
+            menu.src = "images/menu.png";
+            sideNav.classList.remove('visible');
+        }
+    });
 
-            // Show the footer if the user has scrolled past a certain percentage
-            if (scrolledPercentage >= 80) {
-                footer.style.display = 'block';
-            } else {
-                footer.style.display = 'none';
-            }
+    // Add event listeners to menu items to close sideNav when clicked
+    var menuItems = document.querySelectorAll("#sideNav ul li a");
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            sideNav.style.right = "-250px";
+            menu.src = "images/menu.png";
+            sideNav.classList.remove('visible');
         });
     });
 
-
+    // All animations will take exactly 1000ms
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
 </script>
 
-<script src="script.js"></script>
-</body>
 
+</body>
 </html>
