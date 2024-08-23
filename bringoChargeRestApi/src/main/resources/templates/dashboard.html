@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - BringoCharge</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}"> <!-- Link to dashboard-specific CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-container">
+            <a href="#" th:href="@{/index.html}" class="brand-logo">
+                <img th:src="@{/images/logo.png}" alt="BringoCharge Logo">
+                <span>BringoCharge</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" th:href="@{/dashboard}">Dashboard</a></li>
+                <li><a href="#" th:href="@{/reservations}">Reservations</a></li>
+                <li><a href="#" th:href="@{/profile}">Profile</a></li>
+                <li><a href="#" th:href="@{/logout}">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="dashboard-overview">
+        <div class="dashboard-container">
+            <h1>Welcome to Your Dashboard</h1>
+            <p>Manage your reservations, view your profile, and more.</p>
+            <div class="dashboard-cards">
+                <div class="dashboard-card">
+                    <h2>Upcoming Reservations</h2>
+                    <p>View and manage your upcoming reservations.</p>
+                    <a href="#" th:href="@{/reservations}" class="btn">View Reservations</a>
+                </div>
+                <div class="dashboard-card">
+                    <h2>Profile</h2>
+                    <p>Update your personal information and settings.</p>
+                    <a href="#" th:href="@{/profile}" class="btn">View Profile</a>
+                </div>
+                <div class="dashboard-card">
+                    <h2>Account Settings</h2>
+                    <p>Change your account settings and preferences.</p>
+                    <a href="#" th:href="@{/settings}" class="btn">Account Settings</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2024 BringoCharge. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#" th:href="@{/terms}">Terms of Service</a></li>
+            <li><a href="#" th:href="@{/privacy}">Privacy Policy</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

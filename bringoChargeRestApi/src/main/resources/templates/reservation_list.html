@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Reservation List</title>
+</head>
+<body>
+<h1>Reservation List</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Plate Number</th>
+        <th>Car Brand</th>
+        <th>Reservation Date</th>
+        <th>Address</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="reservation : ${reservations}">
+        <td th:text="${reservation.plateNumber}"></td>
+        <td th:text="${reservation.carBrand}"></td>
+        <td th:text="${reservation.formattedReservationDate}"></td>
+        <td th:text="${reservation.address}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
